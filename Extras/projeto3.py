@@ -1,0 +1,20 @@
+# Coletor de Dados (mais bonito)
+
+print("Bem-vindo(a) ao sistema de cadastro do projeto 3!\nPor favor, insira seus dados respondendo as perguntas a seguir.")
+print("---DADOS PESSOAIS---")
+
+nome = input("Qual o seu nome? ")
+idade = input("Qual a sua idade? G")
+email = input("Qual o seu e-mail? ")
+telefone = input("Qual o seu telefone? ")
+endereco = input("Qual o seu endereço? ")
+cpf = input("Qual o seu CPF? ")
+print("---DADOS FORNECIDOS---")
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"E-mail: {email}")
+print(f"Telefone: {telefone}")
+print(f"Endereço: {endereco}")
+print(f"CPF: {cpf}")
+print("Muito obrigado por responder as perguntas!")
+
