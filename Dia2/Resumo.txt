@@ -1,0 +1,32 @@
+Aprofundei os conceitos básicos e aprendi novas estruturas em Python:
+
+1. Tipos de Dados e Variáveis:
+   - Reforcei como declarar variáveis com tipos diferentes: str, int, float e bool.
+
+   - Aprendi a converter tipos com funções como "int()", "float()", "str()".
+
+   - Entendi que o "input()" sempre retorna string e precisa ser convertido quando necessário.
+
+2. Entrada e Saída de Dados:
+   - Usei a função "input()" para receber dados do usuário.
+
+   - Exibi as informações com f-strings, facilitando a formatação das mensagens.
+
+3. Operadores Aritméticos:
+   - Usei operadores como +, -, *, /, // (divisão inteira), % (resto) e ** (potência).
+
+   - Testei os operadores com diferentes variáveis e observei seus resultados.
+
+4. Operadores Relacionais:
+   - Comparei valores com ==, !=, <, >, <= e >= para criar condições.
+
+5. Operadores Lógicos:
+   - Combinei condições com and, or e not para criar expressões mais complexas.
+
+6. Estruturas Condicionais com elif:
+   - Ampliei o uso do "if"/"else" usando o "elif" para verificar múltiplas condições em sequência.
+
+7. Prática com Tarefas:
+   - Criei programas que interagem com o usuário e respondem com base na idade.
+
+   - Reforcei o uso das entradas, conversões de tipo e estruturas condicionais.

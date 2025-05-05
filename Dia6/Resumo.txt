@@ -1,0 +1,36 @@
+Neste dia, aprofundei ainda mais o uso de listas com foco em ordenação, busca e análise de dados.
+
+1. Ordenando Listas:
+   - Usei .sort() para ordenar em ordem crescente.
+
+   - Usei .reverse() para inverter a ordem atual.
+
+   - Usei .sort(reverse=True) para ordenar em ordem decrescente.
+
+2. Funções úteis para análise:
+   - "max(lista)" retorna o maior valor.
+
+   - "min(lista)" retorna o menor valor.
+
+   - "sum(lista)" soma todos os valores.
+
+   - A média é calculada com "sum(lista) / len(lista)".
+
+3. Verificando presença de valores:
+   - "if x in lista:" verifica se um valor está presente.
+
+   - "if x not in lista:" verifica se um valor está ausente.
+
+   - .count(valor) retorna quantas vezes um valor aparece na lista.
+
+4. Buscando elementos com posição:
+   - Usei "enumerate(lista)" para obter índice e valor ao mesmo tempo.
+
+   - Isso foi útil para mostrar em quais posições certas palavras estavam.
+
+5. Uso do end no print():
+   - Utilizei o parâmetro "end" da função "print()" para controlar o que aparece ao final de cada impressão.
+
+   - Por padrão, end="\n" faz com que cada chamada ao print() pule para a próxima linha. Porém, ao utilizar end=" ", consegui imprimir os elementos na mesma linha, separados por espaço.
+
+   - Isso foi especialmente útil quando usei enumerate() para imprimir as posições de palavras na lista, permitindo que as posições fossem exibidas na mesma linha.

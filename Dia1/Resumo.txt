@@ -1,0 +1,22 @@
+Aprendi os conceitos básicos da linguagem Python:
+
+1. Variáveis e Tipos de Dados:
+   - Aprendi a declarar variáveis como "nome", "idade" e "altura".
+
+   - Entendi a diferença entre tipos de dados como str (texto), int (números inteiros) e float (números com vírgula).
+
+   - Usei a função "print()" para exibir os valores no console.
+
+2. Operações Matemáticas:
+   - Realizei operações simples como soma (+) e multiplicação (*).
+
+   - Guardei os resultados em variáveis ("soma", "multiplicacao") e os exibi com "print()".
+
+3. Estruturas de Controle:
+   - Usei o "if" e "else" para tomar decisões com base em condições (ex: verificar se a idade é menor que 18).
+
+   - Aprendi a usar o loop "for" com "range()" para repetir ações um número definido de vezes.
+
+   - Usei o loop "while" para repetir ações enquanto uma condição for verdadeira, controlando com um contador.
+
+Esses conceitos são a base da programação e serão usados em praticamente todos os códigos futuros.
