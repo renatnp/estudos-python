@@ -10,9 +10,9 @@ print()  # Pula uma linha no terminal para separar visualmente
 # 2. WHILE
 # Repete um bloco de código enquanto a condição for verdadeira
 contador = 0
-while contador < 5:  # Enquanto contador for menor que 5
+while contador < 5:     # Enquanto contador for menor que 5
     print("Contando:", contador)
-    contador += 1   # Aumenta o contador em +1 a cada volta
+    contador += 1       # Aumenta o contador em +1 a cada volta
 
 print()
 
@@ -33,6 +33,6 @@ for i in range(5):
     print(i)
 
 # Observações:
-# - range(n) cria uma sequência de 0 até n-1
-# - break = parar o loop
-# - continue = pular a volta atual e ir pra próxima
+# - range(n) cria uma sequência de 0 até n-1.
+# - break = para o loop.
+# - continue = pula a volta atual e vai para a próxima.

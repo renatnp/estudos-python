@@ -10,8 +10,8 @@ print(f"Lista invertida: {valores}")
 valores.sort(reverse=True)
 print(f"Lista em ordem decrescente: {valores}")
 
-# Mostra o maior valor da lista
+# Mostra o maior valor da lista.
 print(f"Maior valor: {max(valores)}")
 
-# Mostra o menor valor da lista
+# Mostra o menor valor da lista.
 print(f"Menor valor: {min(valores)}")

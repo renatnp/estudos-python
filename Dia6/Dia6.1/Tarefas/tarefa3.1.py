@@ -16,4 +16,3 @@ vendas.sort()
 print(f"Valores em ordem crescente: {vendas}")
 vendas.sort(reverse=True)
 print(f"Valores em ordem decrescente: {vendas}")
-

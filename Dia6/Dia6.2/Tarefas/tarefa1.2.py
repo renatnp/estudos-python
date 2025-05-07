@@ -7,4 +7,3 @@ if num in lista:
     print(f"O número {num} está na lista e aparece {lista.count(num)} vezes.")
 else:
     print(f"O número {num} não está na lista.")
-    
