@@ -7,10 +7,10 @@ tem_carteira = True      # bool: valor lógico (True ou False)
 
 
 # 2. Tipos de Dados
-# int: Números inteiros.    -   Ex: 10 ou -3
-# float: Números decimais.  -   Ex: 3.14 ou -2.7
-# str: Texto.               -   Ex: "olá" ou "Maria"
-# bool: Valores lógicos.    -   Ex: True ou False
+print(type(idade))         # int: Números inteiros.     - 20
+print(type(altura))        # float: Números decimais.   - 1.65
+print(type(nome))          # str: Texto.                - "Maria"
+print(type(tem_carteira))  # bool: Valores lógicos.     - True
 
 # Exemplo de tipos de dados
 numero_inteiro = 10     # int

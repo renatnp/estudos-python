@@ -37,3 +37,6 @@ for pessoa in cadastro:
     if pessoa[1] < menor_idade:
         menor_idade = pessoa[1]
         pessoa_mais_nova = pessoa[0]
+
+print(f"\nA pessoa mais velha é {pessoa_mais_velha}, com {maior_idade} anos.")
+print(f"A pessoa mais nova é {pessoa_mais_nova}, com {menor_idade} anos.")
