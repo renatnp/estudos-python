@@ -1,0 +1,48 @@
+1. Criação de funções:
+   - Uma função é um bloco de código reutilizável. Ela é criada com a palavra "def" seguida do nome da função e parênteses.
+Ex.:
+     def saudacao():
+         print("Olá!")
+     saudacao()  # Chama a função e executa o que está dentro dela.
+
+2. Funções com parâmetros:
+   - Parâmetros são valores que a função espera receber para executar uma ação.
+Ex.:
+     def apresentar(nome):
+         print(f"Olá, {nome}!")
+     apresentar("Ana")  # Mostra "Olá, Ana!"
+
+3. Usando "return":
+   - O "return" serve para devolver um valor de dentro da função. Esse valor pode ser usado em outro lugar.
+Ex.:
+     def somar(a, b):
+         return a + b
+     resultado = somar(2, 3)
+     print(resultado)  # Mostra 5
+
+
+4. Função com cálculo aplicado:
+   - Ex. com cálculo de desconto:
+
+     def calcular_desconto(valor, porcentagem):
+         return valor * (porcentagem / 100)
+     print(calcular_desconto(100, 10))  # Mostra 10.0
+
+5. Função + lista de dicionários:
+   - Pode-se aplicar funções a estruturas maiores como listas com dicionários.
+Ex.:
+     def calculadora_frete(peso, distancia):
+         frete = peso * 0.50 + distancia * 10
+         return frete
+
+     dados = []
+     for i in range(3):
+         nome = input("Digite seu nome: ")
+         peso = float(input("Peso da carga: "))
+         distancia = int(input("Distância da entrega: "))
+         pessoa = {'nome': nome, 'peso': peso, 'distancia': distancia}
+         dados.append(pessoa)
+
+     for pessoa in dados:
+         valor_frete = calculadora_frete(pessoa['peso'], pessoa['distancia'])
+         print(f"{pessoa['nome']} pagará R$ {valor_frete}")
