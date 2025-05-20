@@ -18,3 +18,14 @@ def somar(a, b):  # Função com dois parâmetros: "a" e "b".
 # Podemos guardar o valor retornado em uma variável
 resultado = somar(3, 4)  # A função executa a soma 3 + 4 e retorna 7
 print("Resultado da soma:", resultado)  # Exibe o resultado retornado pela função
+
+'''
+Uma variável criada dentro de uma função é chamada local e só pode ser usada dentro da função.
+Uma variável criada fora é chamada de global e pode ser usada em qualquer lugar.
+'''
+# Criando uma variável global dentro de uma função:
+def minhafuncao():
+    global x  # Transforma a variável local em global e pode ser usada fora da função
+    x = "20"
+minhafuncao()
+print(f"Eu tenho {x} anos")

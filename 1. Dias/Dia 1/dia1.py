@@ -10,6 +10,18 @@ print("Nome:", nome)
 print("Idade:", idade)
 print("Altura:", altura)
 
+# Definindo várias variáveis de uma vez:
+x, y, z = "Banana", "Maçã", "Cereja"
+print(x)  # Mostra Banana
+print(y)  # Mostra Maçã
+print(z)  # Mostra Cereja
+
+# Um valor para várias variáveis:
+a = b = c = "Laranja"
+print(a)  # Mostra Laranja
+print(b)  # Mostra Laranja
+print(c)  # Mostra Laranja
+
 # Operações com variáveis:
 soma = 10 + 5             # Soma de dois números.
 multiplicacao = 4 * 3     # Multiplicação de dois números.

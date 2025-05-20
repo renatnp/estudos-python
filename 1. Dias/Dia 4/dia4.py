@@ -34,3 +34,10 @@ print(f"A lista tem {len(nomes)} nomes.")  # Exibe a quantidade de itens
 # 8. Percorre a lista com um laço for:
 for nome in nomes:
     print(f"Olá, {nome}!")
+
+# 9. Desempacotar uma lista:
+frutas = ["maça", "banana", "cereja"]
+x, y, z = frutas
+print(x) # x = maçã
+print(y) # y = banana
+print(z) # z = cereja
